@@ -33,6 +33,8 @@ pipeline {
                  waitForQualityGate abortPipeline: true
               }
         }
+        stage('push to nexus') {
+         steps {
         
             
         }
